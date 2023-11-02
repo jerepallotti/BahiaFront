@@ -1,17 +1,21 @@
-body{background-color: #87ECEE;
-}
+body{ background-image: url(../Imagenes/fondotacos.jpg); background-repeat: repeat;}
 h1{color: blue; font-size: xxx-large; text-align: center; text-decoration: underline;}
 h2{color: #3E7FD2; font-size: xx-large; text-decoration: underline;}
-.texto{font-size: x-large; text-align: justify;}
-
-.conborde{width: 20%; height: 300px}
-
-.recetas{background-color: blue; text-decoration: none; color: white;border:10px solid blue; padding: 2%; border-radius: 20px; font-size: xx-large; margin-right: 20px; text-align: center;}
-.iconowhats{width: 90px; height: 90px; position: fixed; text-align: center; right: 5%; bottom: 8%}
-
-
-footer{background-color: blue;padding: 1%;display: flex;flex-wrap: wrap; text-align: center; pad}
-.redessociales a{padding: 1%;text-decoration: none; text-align: center;}
-.face {width: 10%;}
-.twitter{width: 5%}
-.IG{ width: 9%;)
+.texto{font-size: x-large;}
+.texto{position: relative; bottom: 100px}
+.texto2{font-size: x-large; position: relative; bottom: 100px}
+.conborde{width: 500px; height: 500px; text-align: center;}
+.recetas{background-color: blue; text-decoration: none; color: white;border:3px solid blue; border-radius: 20%; font-size: xx-large; padding: 1%; position: relative; bottom: 140px}
+.paises{display: flex; justify-content: space-around}
+.iconowhats{width: 90px; height: 90px; position: fixed; text-align: center; right: 2%; bottom: 2%}
+footer{background-color: blue; padding: 1%;flex-wrap: wrap; padding-top: 0px; height: 250px}
+.redessociales{text-align: center; margin-left: 5%; margin-right: 5%; padding-left: 10%; padding-right: 10%; padding: 1%; padding-top: 0px}
+.face {width: 5%;}
+.twitter{width: 3%;}
+.IG{width: 5%; position:relative;bottom: -8px}
+.info{color: white; padding: 1%; padding-top: 0px; position: relative; bottom: 280px}
+.informacion { display: flex; justify-content: flex-end; padding-top: 0px}
+.redesheader{ text-align: right; position: relative; bottom: 100px;}
+.logo{ height: 100px; position: relative; bottom: 140px}
+.dire{display: flex; justify-content: flex-start; padding-top: 0px; position: relative; bottom: 50px}
+.video{}
